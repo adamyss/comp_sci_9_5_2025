@@ -8,7 +8,7 @@ int main()
 {
     srand(time(0));
     int num = (rand() %10);
-    cout << "Hellow World! Lets play a game! Pick a number 1 - 10" << endl;
+    cout << "Hello World! Lets play a game! Pick a number 1 - 10" << endl;
     int numberInputed = 0;
     cin >> numberInputed;
     if(numberInputed == num){
@@ -45,3 +45,4 @@ int main()
     }
     return 0;
 }
+
